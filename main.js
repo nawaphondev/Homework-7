@@ -77,3 +77,9 @@ const usernameInput = document.querySelector("#username");
 usernameInput.addEventListener("input", function () {
   resetInputStyles();
 });
+
+// เพิ่ม event listener ใน input ของ Role เพื่อรีเซ็ตสีเมื่อผู้ใช้กำลังแก้ไข
+const roleSelect = document.querySelector("#role");
+roleSelect.addEventListener("change", function () {
+  resetInputStyles();
+});
